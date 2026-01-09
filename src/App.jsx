@@ -17,17 +17,25 @@ function App() {
 
   return (
     <>
-     
+     <div className="min-h-screen flex flex-col">
       <Header />
-      <Body />
-    <Routes>
+
+      <main className="flex-1 px-4 py-6">
+        {/* Your page content here */}
+     <Routes>
      <Route path='/home' element={<Home />} />
      <Route path='/about' element={<About />} />
      <Route path='/contact' element={<Contact />} />
      <Route path='/skills'  element={<Skills />} />
-    </Routes>
-      {/* <Skill /> */}
+     </Routes>
+      </main>
+
       <Footer />
+    </div>
+      
+    
+      
+     
     </>
   )
 }
