@@ -1,5 +1,8 @@
 import { useState } from 'react'
 import Header from './components/Header'
+import Body from './components/Body'
+import Footer from './components/Footer'
+
 
 
 function App() {
@@ -7,10 +10,10 @@ function App() {
 
   return (
     <>
-     <div className='bg-black  text-white'>
+     
       <Header />
-      <h1>My React Project</h1>
-     </div>
+      <Body />
+      <Footer />
     </>
   )
 }
