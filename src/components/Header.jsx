@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
@@ -11,10 +12,10 @@ const Header = () => {
 
         {/* Navigation */}
         <nav className="hidden md:flex gap-8 text-sm">
-          <a href="#" className="hover:text-emerald-400">Home</a>
-          <a href="#" className="hover:text-emerald-400">Products</a>
-          <a href="#" className="hover:text-emerald-400">About</a>
-          <a href="#" className="hover:text-emerald-400">Contact</a>
+        <Link to="/home">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/projects">Skills</Link>
+        <Link to="/contact">Contact</Link>
         </nav>
 
         {/* Button */}
