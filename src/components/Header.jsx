@@ -2,8 +2,9 @@ import React from "react";
 
 const Header = () => {
     return (
+    <div>
          <header className="bg-emerald-950 text-white">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+         <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
 
         {/* Logo */}
         <h1 className="text-2xl font-bold">MyApp</h1>
@@ -23,6 +24,7 @@ const Header = () => {
 
       </div>
     </header>
+    </div>
     )
 }
 
