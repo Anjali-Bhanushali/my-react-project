@@ -1,5 +1,5 @@
 import { useState} from 'react'
-import Header from './components/Header'
+import Header from './pages/Header'
 import Body from './components/Body'
 import Footer from './components/Footer'
 import Skill from './components/Skill'
@@ -31,6 +31,7 @@ function App() {
        <Route path='/skills'  element={<Skills />} />
       </Routes>
   
+     <Body />
 
       </main>
 
